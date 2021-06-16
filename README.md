@@ -66,7 +66,15 @@ mvn test jacoco:report org.pitest:pitest-maven:mutationCoverage -DhistoryInputFi
   - https://mvnrepository.com/artifact/org.pitest/pitest-junit5-plugin
     - required to work with JUnit5
 
+#Final Project 
 
+For my final Project I will set up a new Project that I might want to work further on later, once I have more time. 
+The goal of this Project is to have a "Track Keeping System for pet-food and feeding time", so that one can for example share the
+information with pet-sitters, but also keep track of medicine or special diet needs of a pet. 
 
+### What I hope to do: 
+1. try to work object oriented
+2. work with teh TDD approach 
+3. have at least 3 tested methods 
 
-
+##Test Thoughts and Cases
