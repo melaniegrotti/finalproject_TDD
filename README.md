@@ -82,7 +82,7 @@ The minimum requriement for my Program in the beginning will be that the Name an
 is not going to be a requirement. 
 
 - [x] Test Case 1: make sure I can add a Pet to the List of my Pets 
-- []  Test Case 2: check if pet is already added
+- []  Test Case 2: check if pet is already added --> need to figure out how to compare objects first
 
 
 
