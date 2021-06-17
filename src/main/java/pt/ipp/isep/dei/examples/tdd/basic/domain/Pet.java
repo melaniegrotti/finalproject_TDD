@@ -15,10 +15,10 @@ private String diet;
         this.diet = diet;
     }
 
-    public Pet (String name, String breed, String Birthday,  String diet){
+    public Pet (String name, String breed, String birthday,  String diet){
         this.name = name;
-        breed = "";
-        birthday = "";
+        this.breed = breed;
+        this.birthday = birthday;
         this.diet = diet;
     }
 
@@ -55,4 +55,7 @@ private String diet;
     public void setDiet(String diet) {
         diet = diet;
     }
+
+    //
+
 }
