@@ -78,3 +78,8 @@ information with pet-sitters, but also keep track of medicine or special diet ne
 3. have at least 3 tested methods 
 
 ##Test Thoughts and Cases
+The minimum requriement for my Program in the beginning will be that the Name and the Diet is set, all the other extra information
+is not going to be a requirement. 
+
+- [] Test Case 1: make sure I can add a Pet to the List of my Pets 
+

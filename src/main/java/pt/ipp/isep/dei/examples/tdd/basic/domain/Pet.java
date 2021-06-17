@@ -1,11 +1,29 @@
 package pt.ipp.isep.dei.examples.tdd.basic.domain;
 
 public class Pet {
+    //values
 private String name;
 private String breed;
-private String Birthday;
-private String Diet;
+private String birthday;
+private String diet;
 
+      //constructor
+    public Pet (String name, String diet){
+        this.name = name;
+        breed = "";
+        birthday = "";
+        this.diet = diet;
+    }
+
+    public Pet (String name, String breed, String Birthday,  String diet){
+        this.name = name;
+        breed = "";
+        birthday = "";
+        this.diet = diet;
+    }
+
+
+       //getters & setters
     public String getName() {
         return name;
     }
@@ -15,11 +33,11 @@ private String Diet;
     }
 
     public String getBirthday() {
-        return Birthday;
+        return birthday;
     }
 
     public String getDiet() {
-        return Diet;
+        return diet;
     }
 
     public void setName(String name) {
@@ -31,10 +49,10 @@ private String Diet;
     }
 
     public void setBirthday(String birthday) {
-        Birthday = birthday;
+        birthday = birthday;
     }
 
     public void setDiet(String diet) {
-        Diet = diet;
+        diet = diet;
     }
 }
