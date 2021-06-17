@@ -83,6 +83,12 @@ is not going to be a requirement.
 
 - [x] Test Case 1: make sure I can add a Pet to the List of my Pets 
 - []  Test Case 2: check if pet is already added --> need to figure out how to compare objects first
+- [] Test Case 3: try to remove Object - same issue as with Case 2 cant figure out how to compare objects in arrayList
 
 
+
+
+--checking if it was firewall
+
+--checking if it was firewall
 
