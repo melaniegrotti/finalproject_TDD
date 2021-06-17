@@ -27,7 +27,20 @@ public class PetFeederTest {
         assertEquals(expectedResult, result);
     }
 
+    //Trouble with OO again!!!
     /*
+    @Test
+    public void ensureRemovePetFromListWorks(){
+        //Arrange
+        ArrayList<Pet> testingArrayList = new ArrayList<Pet>();
+        Pet petTest = new Pet("Birdy", "Seeds");
+        testingArrayList.add(petTest);
+        boolean expectedResult = true;
+
+    }
+
+
+
     @Test
     public void checkIfPetExists() {
         //Arrange

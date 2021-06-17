@@ -11,6 +11,8 @@ public class PetFeeder {
         myPets.add(pet);
     }
 
+
+
     /*
     public boolean findingDuplicatePets(ArrayList<Pet> myPets, Pet pet) {
         //TODO: Figure out how to compare for Objects in Arrays
@@ -21,5 +23,27 @@ public class PetFeeder {
         return false;
     }
 
+     */
+
+    /*
+    public boolean equals(Pet pet) {
+        if (pet == null) return false;
+        if (pet == this) return true;
+        if (!(pet instanceof myPets)) return false;
+        myPets alreadyExists = (myPets) pet;
+        return alreadyExists == this.myPets;
+    }
+
+     */
+    /*
+    @Override
+    public boolean equals(Pet pet) {
+        if (pet instanceof myPets) {
+            myPets existingPet = (myPets) pet;
+            return pet.i == this.i;
+        }
+        return false;
+    }
+    
      */
 }
